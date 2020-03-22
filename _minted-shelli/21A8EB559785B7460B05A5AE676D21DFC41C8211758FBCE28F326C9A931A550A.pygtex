@@ -1,0 +1,25 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{pwd}\PYG{p}{:} \PYG{n+nb}{print} \PYG{n}{working} \PYG{n}{directory}
+\PYG{n}{cd} \PYG{p}{:} \PYG{n}{change} \PYG{n}{directory}
+\PYG{o}{.}  \PYG{p}{:} \PYG{n}{the} \PYG{n}{current} \PYG{n}{directory}
+\PYG{o}{..} \PYG{p}{:} \PYG{n}{the} \PYG{n}{parent} \PYG{n}{directory}
+\PYG{n}{ls}\PYG{p}{:} \PYG{n+nb}{list} \PYG{n}{file} \PYG{o+ow}{in} \PYG{n}{the} \PYG{n}{current} \PYG{n}{working} \PYG{n}{directory}
+\PYG{n}{ls} \PYG{o}{\PYGZhy{}}\PYG{n}{l}\PYG{p}{:} \PYG{n+nb}{list} \PYG{n}{file} \PYG{k}{with} \PYG{n}{information}
+\PYG{n}{cd} \PYG{o}{\PYGZti{}}\PYG{p}{:} \PYG{n}{brings} \PYG{n}{you} \PYG{n}{back} \PYG{n}{to} \PYG{n}{home} \PYG{n}{directory}
+\PYG{n}{cd} \PYG{o}{\PYGZhy{}}\PYG{p}{:} \PYG{n}{brings} \PYG{n}{to} \PYG{n}{the} \PYG{n}{directory} \PYG{n}{you} \PYG{n}{preveously} \PYG{o+ow}{in}
+\PYG{n}{rwx}\PYG{p}{:} \PYG{n}{read}\PYG{o}{\PYGZhy{}}\PYG{n}{write}\PYG{o}{\PYGZhy{}}\PYG{n}{execute}\PYG{p}{(}\PYG{n}{permition}\PYG{p}{)}
+\PYG{n}{mv}\PYG{o}{\PYGZlt{}}\PYG{n}{oldname}\PYG{o}{\PYGZgt{}} \PYG{o}{\PYGZlt{}}\PYG{n}{newname}\PYG{o}{\PYGZgt{}}\PYG{p}{:} \PYG{n}{rename} \PYG{n}{file} \PYG{o+ow}{or} \PYG{n}{direcorry}
+\PYG{n}{mv} \PYG{o}{\PYGZlt{}}\PYG{n}{old} \PYG{n}{directory}\PYG{o}{\PYGZgt{}} \PYG{o}{\PYGZlt{}}\PYG{n}{new} \PYG{n}{directoru}\PYG{o}{\PYGZgt{}}\PYG{p}{:} \PYG{n}{Moves} \PYG{n}{file} \PYG{k+kn}{from} \PYG{n+nn}{one} \PYG{n}{to} \PYG{n}{another} \PYG{n}{directory}
+\PYG{n}{cp} \PYG{o}{\PYGZlt{}}\PYG{n}{old} \PYG{n+nb}{dir}\PYG{o}{\PYGZgt{}} \PYG{o}{\PYGZlt{}}\PYG{n}{new} \PYG{n+nb}{dir}\PYG{o}{\PYGZgt{}}\PYG{p}{:} \PYG{n}{copy} \PYG{k+kn}{from} \PYG{n+nn}{one} \PYG{n}{directory} \PYG{n}{to} \PYG{n}{another}
+\PYG{n}{rmdir} \PYG{o}{\PYGZlt{}}\PYG{n}{name}\PYG{o}{\PYGZgt{}}\PYG{p}{:} \PYG{n}{remove} \PYG{n}{directory} \PYG{k}{if} \PYG{n}{empty}
+\PYG{n}{rm} \PYG{o}{\PYGZlt{}}\PYG{n}{path}\PYG{o}{\PYGZgt{}}\PYG{p}{:} \PYG{n}{remove} \PYG{n}{the} \PYG{n}{given} \PYG{n}{directory}
+\PYG{n}{mkdir} \PYG{o}{\PYGZlt{}}\PYG{n}{name}\PYG{o}{\PYGZgt{}}\PYG{p}{:} \PYG{n}{create} \PYG{n}{directory}
+\PYG{n}{man}\PYG{o}{\PYGZlt{}}\PYG{n}{command}\PYG{o}{\PYGZgt{}}\PYG{p}{:} \PYG{n}{manual} \PYG{n}{page} \PYG{k}{for} \PYG{n}{the} \PYG{n}{command}
+\PYG{n}{q}\PYG{p}{:} \PYG{n}{to} \PYG{n}{quit}
+\PYG{n}{clear}\PYG{p}{:} \PYG{n}{clear} \PYG{n}{shell}
+\PYG{n}{echo} \PYG{o}{\PYGZlt{}}\PYG{n}{content}\PYG{o}{\PYGZgt{}} \PYG{o}{\PYGZgt{}} \PYG{o}{\PYGZlt{}}\PYG{n}{filename}\PYG{o}{\PYGZgt{}}\PYG{p}{:} \PYG{n}{I} \PYG{n}{want} \PYG{n}{content} \PYG{n}{to} \PYG{n}{be} \PYG{n}{stored} \PYG{o+ow}{in} \PYG{n}{filename}
+\PYG{n}{echo} \PYG{o}{\PYGZlt{}}\PYG{n}{content}\PYG{o}{\PYGZgt{}} \PYG{o}{\PYGZgt{}\PYGZgt{}} \PYG{o}{\PYGZlt{}}\PYG{n}{filename}\PYG{o}{\PYGZgt{}}\PYG{p}{:} \PYG{n}{I} \PYG{n}{want} \PYG{n}{content} \PYG{n}{to} \PYG{n}{be} \PYG{n}{appended} \PYG{n}{to} \PYG{n}{filename}
+\PYG{n}{cat} \PYG{o}{\PYGZlt{}}\PYG{n}{filename}\PYG{o}{\PYGZgt{}}\PYG{p}{:} \PYG{n+nb}{print} \PYG{n}{out} \PYG{n}{content} \PYG{n}{of} \PYG{n}{filename}
+\PYG{n}{cat} \PYG{o}{\PYGZgt{}} \PYG{o}{\PYGZlt{}}\PYG{n}{filename}\PYG{o}{\PYGZgt{}}\PYG{p}{:} \PYG{n}{take} \PYG{n}{content} \PYG{n}{of} \PYG{n}{filename} \PYG{k}{as} \PYG{n}{your} \PYG{n+nb}{input}
+\PYG{n}{cat} \PYG{o}{\PYGZgt{}} \PYG{o}{\PYGZlt{}}\PYG{n}{filename}\PYG{o}{\PYGZgt{}} \PYG{o}{\PYGZgt{}} \PYG{o}{\PYGZlt{}}\PYG{n}{otherfilename}\PYG{o}{\PYGZgt{}} \PYG{n}{take} \PYG{n}{the} \PYG{n}{content} \PYG{n}{to} \PYG{n}{the} \PYG{n}{filename} \PYG{o+ow}{and} \PYG{n+nb}{print} \PYG{n}{out} \PYG{n}{to} \PYG{n}{otherfilename}
+\end{Verbatim}
