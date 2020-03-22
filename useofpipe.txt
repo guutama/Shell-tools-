@@ -1,0 +1,3 @@
+-rw-r--r--  1 gutama  staff   3495 Mar 22 20:53 shelli.tex
+-rw-r--r--  1 gutama  staff      0 Mar 22 21:52 useofpipe.txt
+The command that generate the above text was : ls -l | tail -n2
